@@ -83,7 +83,6 @@ def makecom(comment,types):
 			elif link_full[:3] == '/r/':
 				cprint('Broken link just links to the subreddit it is in.')
 				print(comment.permalink)
-				ind = input('asd')
 				return 'False'
 			else:
 				comment.reply(bcomment(link_full))

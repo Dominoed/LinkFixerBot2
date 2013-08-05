@@ -111,7 +111,7 @@ def getcom():
 			if comment.id not in already_done:
 				already_done.add(comment.id)
 				if (comment.body.count('u/')+comment.body.count('r/'))+comment.body.count('user/') > 0:
-					cprint('Potential comment found. Checking to see if comment is valid.')
+					cprint('Potential comment found. Checking if comment is valid.')
 					time.sleep(0.1)
 					if comment.body.count('u/')+comment.body.count('r/')+comment.body.count('user/') > comment.body.count('/u/')+comment.body.count('[u/')+comment.body.count('/r/')+comment.body.count('[r/')+comment.body.count('/user/')+comment.body.count('[user/'):
 						if comment.subreddit.display_name not in bannedsubs:

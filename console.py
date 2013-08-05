@@ -2,7 +2,7 @@ import time
 import ini
 
 def leng(stri):
-  'Get length of a string easier.'
+	'Get length of a string easier.'
 	return stri.__len__()
 def cprint(msg):
 	'Print a console message.'

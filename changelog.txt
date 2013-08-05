@@ -20,6 +20,8 @@ Version 2.3.1:
 
 - Bot no longer fixes links that link to the subreddit it is in
 
+- Broken links now check for different upper/lower case characters (/r/AskReddit - /r/askreddit)
+
 Version 2.3:
 
 - Fixed exclamation mark showing after link

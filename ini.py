@@ -1,7 +1,7 @@
 import configparser
 
 def write(ifile,isec,ikey,ival):
-  'Write to ini file'
+	'Write to ini file'
 	config = configparser.ConfigParser()
 	config[isec] = {ikey:ival}
 	with open(ifile,'w') as configfile:

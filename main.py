@@ -18,6 +18,9 @@ bannedsubs.add('science')
 bannedsubs.add('news')
 bannedsubs.add('gifs')
 bannedsubs.add('GirlGamers')
+bannedsubs.add('IAmA')
+bannedsubs.add('gaming')
+bannedsubs.add('AdviceAnimals')
 errorlog = 0
 def hasend(string):
   'Check if link is the end of comment.'

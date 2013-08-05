@@ -61,7 +61,7 @@ def makecom(comment,types):
 			link_after = getspace(link_start)+2+comment.body.find(types)
 			link_before = comment.body.find(types)
 			link_full = '/'+comment.body[link_before:link_after]
-			if link_full[3:] != comment.subreddit.display_name:
+			if link_full[3:].lower() != comment.subreddit.display_name.lower():
 				comment.reply(bcomment(link_full))
 				return link_full
 			elif link_full[:3] == '/r/':
@@ -80,7 +80,7 @@ def makecom(comment,types):
 				link_after = getspace(link_start)+2+comment.body.find(types)
 				link_full = '/'+comment.body[link_before:link_after]
 			link_full = '/'+comment.body[link_before:link_after]
-			if link_full[3:] != comment.subreddit.display_name:
+			if link_full[3:].lower() != comment.subreddit.display_name.lower():
 				comment.reply(bcomment(link_full))
 				return link_full
 			elif link_full[:3] == '/r/':

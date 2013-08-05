@@ -1,0 +1,74 @@
+Below is the full changelog for LinkFixerBot2.
+----
+
+Version 2.3.1:
+
+- The bot ignores comments from subreddits it is banned from ( :/ )
+
+- Changed "Creator" to "Author" due to Religious comments
+
+- Searching through comments happens a *lot* faster
+
+- Errors now don't cause an error themselves when logging
+
+- Errors now stay logged in the error log file
+
+- Fixed more special characters showing after link
+
+- Bot doesn't reply if the link is empty; Example: This r/ link is empty
+
+- "user/" type brokem links now fix properly
+
+- Bot no longer fixes links that link to the subreddit it is in
+
+Version 2.3:
+
+- Fixed exclamation mark showing after link
+
+- Fixed the bot caching results and re-checking them
+
+- Bot searches comments faster
+
+- Bot replies to comments faster
+
+- Unknown errors don't stop the program now - instead they just log it, wait, and try over again
+
+- Fixed multiple (a lot of) different characters showing after link
+
+- Changed "I am a new bot" to "I am a bot" in comment suffix
+
+- Removed "I am still learning" from comment suffix
+
+- Added direct link to message creator in comment suffix
+
+- Fixed bug where bot will fix links that are actual links; Example: [u/Dominoed](http://reddit.com/u/Dominoed)
+
+- Fixed bug that would make bot comment a broken link; Example: /user/Dominoed
+
+Version 2.2:
+
+- Fixed many bugs with finding end of link
+
+- Fixed link not showing very last character
+
+- Added official subreddit to suffix (/r/LinkFixerBot2)
+
+- Fixed some links coming out as just a slash ("/")
+
+- Fixed bot vs. bot battles (Endless link fixing/breaking)
+
+- Bot doesn't do anything to dead (invalid) comments
+
+Version 2.1:
+
+- Added bot support
+
+- Removed human control
+
+- Added experimental inbox checker
+
+- Added suffix to all comments ("I am a new bot...blah...blah")
+
+Version 2.0:
+
+- Released

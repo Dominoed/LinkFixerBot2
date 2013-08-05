@@ -1,5 +1,4 @@
 Below is the full changelog for LinkFixerBot2.
-----
 
 Version 2.3.1:
 
